@@ -12,3 +12,10 @@ autocorrect git
 ```
 git config --global help.autocorrect 1
 ```
+
+## react native
+
+remove all accidentally added .babelrc files present in node_modules
+```
+find node_modules/ -type f -name .babelrc | grep -v packager | xargs rm
+```

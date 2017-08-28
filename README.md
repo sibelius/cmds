@@ -8,9 +8,14 @@ useful cmds
 git branch --merged | grep -v "\*" | grep -v master | xargs -n 1 git branch -d
 ```
 
-autocorrect git
+- autocorrect git
 ```
 git config --global help.autocorrect 1
+```
+
+- remove all untracked files and folders
+```
+g clean -fd
 ```
 
 ## react native

@@ -15,7 +15,7 @@ git config --global help.autocorrect 1
 
 - remove all untracked files and folders
 ```
-g clean -fd
+git clean -fd
 ```
 
 ## react native
